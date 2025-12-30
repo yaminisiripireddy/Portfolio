@@ -1,23 +1,21 @@
-# Registration Form Web Application
+# Personal Portfolio Website
 
-This is a Java web application developed using Servlets and JDBC.
+This is my personal portfolio website built to showcase my projects, technical skills, and contact information.
 
 ## Features
-- User registration with form validation
-- Data stored in MySQL database
-- Uses Java Servlets for backend logic
+- Responsive design
+- About Me section
+- Skills overview
+- Project showcase
+- Resume download
+- Contact information
 
 ## Technologies Used
-- Java
-- Servlets
-- JDBC
-- MySQL
 - HTML
 - CSS
-- Apache Tomcat
 
-## How to Run
-1. Import the project into Eclipse
-2. Configure Apache Tomcat server
-3. Set up MySQL database
-4. Run the project on server
+## Live Demo
+(Will be updated after hosting on GitHub Pages)
+
+## Author
+Siripireddy Yamini
