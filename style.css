@@ -1,0 +1,138 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fcfcfc;
+    color: #2c2c2c;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+.highlight {
+    color: #f9d71c;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    color: #5a4fcf;
+    margin-bottom: 30px;
+}
+
+/* Skills */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skills-container span {
+    background: rgba(90, 79, 207, 0.1);
+    color: #5a4fcf;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: default;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.skills-container span:hover {
+    background: rgba(90, 79, 207, 0.2);
+    transform: scale(1.1);
+}
+
+/* Projects */
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0.3,0.5,0.5);
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s , box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    position:relative;
+    top: -5px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+/* Resume Button */
+.resume-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #5a4fcf;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+
+.resume-btn:hover {
+    background: #4338ca;
+    transform: scale(1.05);
+}
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    padding: 25px 20px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #f9d71c;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+    section {
+        padding: 30px 15px;
+    }
+    .proj
